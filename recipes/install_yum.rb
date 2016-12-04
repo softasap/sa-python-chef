@@ -13,7 +13,7 @@ execute 'Python | Update pip' do
 end
 
 yum_package 'Python | install python-devel' do
-  package_name  'python-dev'
+  package_name  'python-devel'
   action        :upgrade
 end
 
