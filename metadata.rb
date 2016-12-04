@@ -15,3 +15,4 @@ issues_url 'https://github.com/softasap/sa-python-chef/issues' if respond_to?(:i
 source_url 'https://github.com/softasap/sa-python-chef' if respond_to?(:source_url)
 
 supports 'ubuntu', '>= 14.04'
+supports 'centos', '>= 6.8'
